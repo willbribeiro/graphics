@@ -1,0 +1,88 @@
+# MIT License
+#
+# Copyright (c) 2023 Willian Belincanta Ribeiro
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+## ***************************************************************************
+## * LINES *
+## ***************************************************************************
+lines.linewidth: 1.0
+lines.markersize: 10
+
+## ***************************************************************************
+## * FONT *
+## ***************************************************************************
+mathtext.fontset: stix
+font.family: sans-serif
+font.serif: Arial
+font.weight: normal
+font.size: 22.0
+
+## ***************************************************************************
+## * AXES *
+## ***************************************************************************
+axes.titlesize: 22
+axes.linewidth: 1.5
+axes.labelsize: 14
+
+## ***************************************************************************
+## * TICKS *
+## ***************************************************************************
+xtick.top: True
+xtick.bottom: True
+xtick.major.size: 8.0
+xtick.minor.size: 4.0
+xtick.minor.visible: True
+xtick.major.top: False
+xtick.major.bottom: True
+xtick.minor.top: False
+xtick.minor.bottom: True
+xtick.labelsize: 14
+
+ytick.left: True
+ytick.right: True
+ytick.major.size: 8.0
+ytick.minor.size: 4.0
+ytick.minor.visible: True
+ytick.major.left: True
+ytick.major.right: False
+ytick.minor.left: True
+ytick.minor.right: False
+ytick.labelsize: 14
+
+## ***************************************************************************
+## * LEGEND *
+## ***************************************************************************
+legend.loc: best
+legend.fontsize: 12
+legend.framealpha: 1.0
+legend.fancybox: False
+legend.edgecolor: 'black'
+
+## ***************************************************************************
+## * FIGURE *
+## ***************************************************************************
+figure.figsize: 11.0, 8.5
+
+## ***************************************************************************
+## * SAVING FIGURES *
+## ***************************************************************************
+savefig.dpi: 300.0
+savefig.format: jpeg
