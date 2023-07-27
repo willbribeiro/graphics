@@ -31,4 +31,10 @@ plt.style.use('willian_origin.mplstyle')
 # x = mu + sigma * np.random.randn(437)
 # plt.hist(x)
 
+# BOXPLOT
+# np.random.seed(19680801)
+# all_data = [np.random.normal(0, std, size=100) for std in range (1, 4)]
+# labels =  ['x1', 'x2', 'x3']
+# plt.boxplot(all_data, labels=labels)
+
 plt.show()
