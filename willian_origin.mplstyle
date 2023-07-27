@@ -8,6 +8,25 @@ lines.linewidth: 1.0
 lines.markersize: 10
 
 ## ***************************************************************************
+## * BOXPLOT *
+## ***************************************************************************
+boxplot.showmeans> True
+
+boxplot.flierprops.marker: "x"
+boxplot.flierprops.markersize: 5
+
+boxplot.whiskerprops.linewidth: 1.5
+
+boxplot.medianprops.color: red
+
+boxplot.meanprops.color: black
+boxplot.meanprops.marker: "s"
+boxplot.meanprops.markerfacecolor: none
+boxplot.meanprops.markeredgecolor: black
+boxplot.meanprops.markersize: 5
+boxplot.meanprops.linestyle: -
+
+## ***************************************************************************
 ## * FONT *
 ## ***************************************************************************
 mathtext.fontset: stix
